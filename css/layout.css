@@ -210,10 +210,16 @@ body > section > h2,
 body > section > h3,
 body > section > h4 {
     max-width: 1200px;
-    padding: 0;
     margin: 20px auto;
     position: relative;
     box-sizing: content-box;
+}
+body > section > section,
+body > section > h1,
+body > section > h2,
+body > section > h3,
+body > section > h4 {
+    padding: 0;
 }
 body > section > h1,
 body > section > h2 {
