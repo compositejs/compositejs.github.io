@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="images/bg/poster.jpg">
     <title>CompositeJs</title>
-    <link href="https://cdn.jsdelivr.net/npm/hje@2.2.0/docs/css/site.org.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/hje@2.3.2/docs/css/site.org.css" rel="stylesheet" />
     <link href="./css/current.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/hje@2.0.0/docs/images/logos/compositejs.png" rel="shortcut icon" type="image/png">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hje@2.2.0/docs/js/site.js" ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/hje@2.3.2/docs/js/mdblogs.js" ></script>
     <script type="text/javascript">
     function onInit() {
-        site.getString("blogs", "topmenu-blogs");
-        site.getString("projects", "title-projects");
+        DeepX.MdBlogs.setElementText("topmenu-blogs", "blogs");
+        DeepX.MdBlogs.setElementText("title-projects", "projects");
     }
     </script>
 </head>
@@ -46,7 +46,7 @@
     <footer>
         <section>
             <div class="x-copyright">
-                <img src="images/logos/barcode.svg" />
+                <img alt="composite.js.org" src="images/logos/barcode.svg" />
                 <span>&copy; Kingcean Tuan 2021 &nbsp; | &nbsp; CompositeJs</span>
             </div>
         </section>
